@@ -37,12 +37,12 @@
     "version":"1.0.0",
     "type":"ext",
     "contains":[
-      "kkpush.ai",
+      "kkpush.ai"
     ],
     "requires":[
       "kkpushlib",
       "ext.image",
-      "fpdf",
+      "fpdf"
     ],
     "authors":[
       "Abu Ayyub"
