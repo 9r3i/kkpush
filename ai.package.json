@@ -1,0 +1,53 @@
+{
+  "kkpushlib":{
+    "name":"kkpushlib",
+    "version":"1.0.0",
+    "type":"lib",
+    "contains":[
+      "kkpushlib\/fonts\/.nomedia",
+      "kkpushlib\/fonts\/arialbold.ttf",
+      "kkpushlib\/fonts\/arialnarrow.ttf",
+      "kkpushlib\/fonts\/arialnarrowbold.ttf",
+      "kkpushlib\/fonts\/ocr-a-ext-regular.ttf",
+      "kkpushlib\/images\/.nomedia",
+      "kkpushlib\/images\/blank00.jpg",
+      "kkpushlib\/images\/blue.line.3400x3.jpg",
+      "kkpushlib\/images\/garuda-indonesia.png",
+      "kkpushlib\/images\/gig300.png",
+      "kkpushlib\/images\/line.1500x3.jpg",
+      "kkpushlib\/images\/line.240x3.jpg",
+      "kkpushlib\/images\/line.3400x54.jpg",
+      "kkpushlib\/images\/line.3400x54b.jpg",
+      "kkpushlib\/images\/line.3800x3.jpg",
+      "kkpushlib\/images\/line.3x64.jpg",
+      "kkpushlib\/images\/line.3x655.jpg",
+      "kkpushlib\/images\/line.3x700.jpg",
+      "kkpushlib\/images\/line.3x705.jpg",
+      "kkpushlib\/images\/line.465x3.jpg",
+      "kkpushlib\/images\/line.730x3.jpg",
+      "kkpushlib\/images\/line.820x3.jpg",
+      "kkpushlib\/kk-sample.ini"
+    ],
+    "authors":[
+      "Abu Ayyub"
+    ]
+  },
+  "kkpush":{
+    "name":"kkpush",
+    "version":"1.0.0",
+    "type":"ext",
+    "contains":[
+      "kkpush.ai",
+    ],
+    "requires":[
+      "kkpushlib",
+      "ext.image",
+      "fpdf",
+    ],
+    "authors":[
+      "Abu Ayyub"
+    ]
+  }
+}
+
+
